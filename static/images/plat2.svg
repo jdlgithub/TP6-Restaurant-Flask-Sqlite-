@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="300" height="300" style="background:#14213D; image-rendering: pixelated;">
+  <!-- Bol -->
+  <path d="M6 14 H26 L23 25 C23 26 21 27 16 27 C11 27 9 26 9 25 Z" fill="#E5E5E5"/>
+  <ellipse cx="16" cy="14" rx="10" ry="3" fill="#2A9D8F"/>
+  <!-- Sauce Ndolé (Vert foncé texturé) -->
+  <ellipse cx="16" cy="14" rx="8" ry="2" fill="#1b4332"/>
+  <rect x="13" y="13" width="2" height="1" fill="#52b788"/>
+  <rect x="17" y="14" width="2" height="1" fill="#52b788"/>
+  <!-- Arachides / Crevettes (Touches claires) -->
+  <rect x="15" y="13" width="1" height="1" fill="#f4a261"/>
+  <rect x="12" y="14" width="1" height="1" fill="#f4a261"/>
+</svg>

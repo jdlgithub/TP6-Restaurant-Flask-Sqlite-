@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Menu - Le Saveur{% endblock %}
+{% block content %}
+<h2>Notre Carte</h2>
+<div style="margin-bottom: 1rem;">
+    <button class="filtre" data-categorie="tout">Tout</button>
+    <button class="filtre" data-categorie="entree">Entrées</button>
+    <button class="filtre" data-categorie="plat">Plats</button>
+    <button class="filtre" data-categorie="boisson">Boissons</button>
+</div>
+<ul id="liste-menu" style="list-style: none;"></ul>
+{% endblock %}

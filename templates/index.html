@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Accueil - Le Saveur{% endblock %}
+{% block content %}
+<h2>Bienvenue</h2>
+<p>Découvrez nos délicieuses spécialités camerounaises.</p>
+<div class="specialites-grid">
+    <article>
+        <img src="{{ url_for('static', filename='images/plat1.svg') }}" alt="Poulet DG">
+        <h3>Poulet DG</h3>
+        <p>8500 XAF</p>
+    </article>
+    <article>
+        <img src="{{ url_for('static', filename='images/plat2.svg') }}" alt="Ndolé royal">
+        <h3>Ndolé royal</h3>
+        <p>7000 XAF</p>
+    </article>
+    <article>
+        <img src="{{ url_for('static', filename='images/plat3.svg') }}" alt="Poisson braisé">
+        <h3>Poisson braisé</h3>
+        <p>9000 XAF</p>
+    </article>
+</div>
+{% endblock %}

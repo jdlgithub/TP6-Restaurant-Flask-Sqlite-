@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Réservation - Le Saveur{% endblock %}
+{% block content %}
+<h2>Réserver une table</h2>
+<form method="POST">
+    <div><label for="nom">Nom :</label><input type="text" id="nom" name="nom" required></div>
+    <div><label for="telephone">Téléphone :</label><input type="tel" id="telephone" name="telephone" required placeholder="690000000"></div>
+    <div><label for="date">Date :</label><input type="date" id="date" name="date" required></div>
+    <div><label for="personnes">Personnes :</label><input type="number" id="personnes" name="personnes" min="1" max="20" required value="2"></div>
+    <div><label for="service">Service :</label><select id="service" name="service"><option value="midi">Midi</option><option value="soir">Soir</option></select></div>
+    <div><label for="remarques">Remarques :</label><textarea id="remarques" name="remarques" rows="3"></textarea></div>
+    <button type="submit">Confirmer</button>
+</form>
+{% endblock %}

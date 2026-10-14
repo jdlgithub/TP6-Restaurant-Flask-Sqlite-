@@ -1,0 +1,23 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.6; color: #333; background-color: #F8F9FA; }
+header { background-color: #14213D; color: #FFF; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; }
+header nav ul { display: flex; list-style: none; gap: 1.5rem; }
+header nav a { color: #FFF; text-decoration: none; font-weight: 600; }
+header nav a:hover { color: #FCA311; }
+main { max-width: 70rem; margin: 0 auto; padding: 2rem 1rem; background-color: #FFF; min-height: 70vh; }
+.alert { padding: 0.75rem; border-radius: 4px; margin-bottom: 1rem; font-weight: bold; }
+.alert.success { background-color: #D4EDDA; color: #155724; }
+.alert.danger { background-color: #F8D7DA; color: #721C24; }
+.alert.info { background-color: #D1ECF1; color: #0C5460; }
+.specialites-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+.specialites-grid article { border: 1px solid #ddd; padding: 1rem; border-radius: 8px; background: #fff; }
+.specialites-grid img { width: 100%; height: 140px; object-fit: contain; }
+form div { margin-bottom: 1rem; }
+form label { display: block; font-weight: 600; margin-bottom: 0.3rem; }
+form input, form select, form textarea { width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px; }
+button[type="submit"], .filtre { background-color: #2A9D8F; color: white; padding: 0.6rem 1.2rem; border: none; border-radius: 4px; cursor: pointer; font-weight: 600; }
+button[type="submit"]:hover, .filtre:hover { background-color: #21867A; }
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+table th, table td { border: 1px solid #CCC; padding: 0.75rem; text-align: left; }
+table th { background-color: #E9ECEF; }
+footer { background-color: #14213D; color: #FFF; text-align: center; padding: 1.5rem; margin-top: 2rem; }

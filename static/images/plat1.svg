@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="300" height="300" style="background:#14213D; image-rendering: pixelated;">
+  <!-- Assiette -->
+  <circle cx="16" cy="16" r="14" fill="#E5E5E5"/>
+  <circle cx="16" cy="16" r="11" fill="#FFFFFF"/>
+  <!-- Plantains (Jaune/Orange) -->
+  <rect x="10" y="12" width="5" height="3" fill="#FCA311" rx="1"/>
+  <rect x="17" y="14" width="5" height="3" fill="#FCA311" rx="1"/>
+  <rect x="13" y="18" width="5" height="3" fill="#E36414" rx="1"/>
+  <!-- Poulet & Légumes (Rouge/Brun/Vert) -->
+  <rect x="9" y="15" width="4" height="4" fill="#8B4513"/>
+  <rect x="18" y="10" width="4" height="4" fill="#654321"/>
+  <rect x="14" y="12" width="3" height="3" fill="#E63946"/>
+  <rect x="12" y="15" width="2" height="2" fill="#2A9D8F"/>
+</svg>

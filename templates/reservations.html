@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Gestion Réservations{% endblock %}
+{% block content %}
+<h2>Liste des Réservations</h2>
+{% if reservations %}
+    <table>
+        <tr><th>Date</th><th>Nom</th><th>Téléphone</th><th>Personnes</th><th>Service</th><th>Action</th></tr>
+        {% for r in reservations %}
+        <tr>
+            <td>{{ r.date }}</td>
+            <td>{{ r.nom }}</td>
+            <td>{{ r.telephone }}</td>
+            <td>{{ r.personnes }}</td>
+            <td>{{ r.service }}</td>
+            <td>
+                <form action="{{ url_for('lister_reservations') }}" method="POST" style="display:inline;">
+                    <input type="hidden" name="id" value="{{ r.id }}">
+                    <button type="submit" style="background:#D90429; padding:0.3rem 0.6rem;">Annuler</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <p>Aucune réservation en cours.</p>
+{% endif %}
+{% endblock %}
